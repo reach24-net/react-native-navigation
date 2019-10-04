@@ -5,7 +5,7 @@ import android.content.res.Configuration;
 
 public enum Orientation {
     Portrait("portrait", Configuration.ORIENTATION_PORTRAIT, ActivityInfo.SCREEN_ORIENTATION_PORTRAIT),
-    Landscape("landscape", Configuration.ORIENTATION_LANDSCAPE, ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE),
+    Landscape("landscape", Configuration.ORIENTATION_LANDSCAPE, ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE),
     auto("auto", Configuration.ORIENTATION_UNDEFINED, ActivityInfo.SCREEN_ORIENTATION_SENSOR_PORTRAIT);
 
     public String name;
